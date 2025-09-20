@@ -3,23 +3,23 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./Fonts/fonts.css" />
-    <link rel="stylesheet" href="./Styles/styles.css" />
-    <link rel="stylesheet" href="./Styles/global.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Оно тебе надо</title>
   </head>
   <body>
     <header class="header">
       <nav class="header_menu">
         <ul class="header_menu-list">
-          <li class="header_menu-item header_menu-item_active">
-            <a>Главная</a>
+          <li class="header_menu-item header__link_active">
+            <a>главная</a>
           </li>
           <li class="header_menu-item">
-            <a class="header_menu-link" href="#0">Посмотреть лоты</a>
+            <a class="header__link" href="#0">посмотреть лоты</a>
           </li>
           <li class="header_menu-item">
-            <a class="header_menu-link" href="#0">Об аукционе</a>
+            <a class="header__link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -42,7 +42,7 @@
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover_title">
-          <span class="accent-span">Оно</span>
+          <span class="accent-span text-left">Оно</span>
           <span class="accent-span text-center">тебе</span>
           <span class="accent-span text-right">надо</span>
         </h1>
@@ -50,7 +50,7 @@
           <p class="cover__description-text">
             аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">сделать ставку</button>
+          <button class="bet-button" type="submit">сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -151,7 +151,7 @@
         <nav class="nav">
           <ul class="footer__menu-list">
             <li class="footer__menu-list-item">
-              <a href="/home" class="footer__menu-link">Главная</a>
+              <a href="/home" class="footer__menu-link_active">главная</a>
             </li>
             <li class="footer__menu-list-item">
               <a href="view-lots" class="footer__menu-link">Посмотреть лоты</a>
