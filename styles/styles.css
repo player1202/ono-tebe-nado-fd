@@ -236,10 +236,11 @@
 }
 .footer {
   display: flex;
-  background-color: grey;
   grid-template-columns: auto auto auto;
   justify-items: center;
   margin-top: 180px;
+  margin-right:2px;
+  margin-bottom:82px;
   justify-content: space-between;
 }
 .footer__social-icon {
@@ -251,7 +252,7 @@
 }
 .footer__menu-list {
   display: grid;
-  gap: 3px;
+  gap: 2px;
   list-style-type: none;
   align-items: center;
   justify-items: center;
