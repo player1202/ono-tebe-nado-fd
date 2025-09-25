@@ -110,7 +110,7 @@
   z-index: 2;
   padding-left: 50px;
   padding-top: 99px;
-  padding-bottom: 47px;
+  padding-bottom: 49px;
 }
 .cover__description-text {
   font-size: 22px;
@@ -122,8 +122,8 @@
   color: #fff;
   background-color: transparent;
   border: 1px solid #fff;
-  margin-right: 50px;
-  padding: 12px 32px 11px 34px;
+  margin-right: 54px;
+  padding: 11px 32px 11px 30px;
   font-size: 22px;
   text-transform: uppercase;
 }
