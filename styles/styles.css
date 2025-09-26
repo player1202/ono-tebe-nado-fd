@@ -252,7 +252,7 @@
 }
 .footer__menu-list {
   display: grid;
-  gap: 2px;
+  line-height: 21px;
   list-style-type: none;
   align-items: center;
   justify-items: center;
